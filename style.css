@@ -1,12 +1,31 @@
 #title {
-  background-color: #FF4C68
+  background-color: #FF4C68;
 }
 #features{
-  background-color: #e4bad4
+  background-color: #e4bad4;
+  position: relative;
 }
 #tin {
   font-size: 2rem;
   font-weight: bold;
+}
+#testimonials{
+  background-color: #FF4C68;
+  text-align: center;
+  color: white;
+}
+#press{
+  background-color: #FF4C68;
+  text-align: center;
+  padding-bottom: 3%;
+}
+#pricing{
+  background-color: #e4bad4;
+  padding: 100px;
+}
+#footer{
+  background-color: #66BFBF;
+  padding: 2px 0 2px;
 }
 .navbar{
   padding:0 0 4.5rem;
@@ -23,6 +42,11 @@
   font-size: 1.2rem;
   font-family: "Montserrat-Light";
 }
+.testimg{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
 h1{
   font-family: 'Montserrat-Black', sans-serif;
   font-size: 3.5rem;
@@ -30,9 +54,13 @@ h1{
   color: white;
   font-weight: bolder;
 }
+h2{
+  font-family: 'Montserrat-Bold', sans-serif;
+  font-size: 3rem;
+}
 
 .container-fluid{
-  padding: 3% 15%;
+  padding: 3% 15% 7%;
 }
 
 .dwnbtn{
@@ -42,6 +70,8 @@ h1{
 .tilt{
   width: 60%;
   transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
 }
 .box{
   text-align: center;
@@ -57,4 +87,15 @@ h1{
 }
 .icon:hover{
   color: #630000;
+}
+.press-img{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+.carousel-item{
+  padding: 12% 18%;
+}
+.pricol{
+  padding: 3% 2%;
+  text-align: center;
 }
